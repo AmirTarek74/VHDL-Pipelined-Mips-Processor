@@ -53,7 +53,7 @@ rom:=rom'(
 
 begin
 --the imem is a ROM containing the 24bit wide instructions
-data<=imem(CONV_INTEGER(address));-- 'data' output will carry the 32b instuction from location specified by 'address'. 
+data<=imem(CONV_INTEGER(address));-- 'data' output will carry the 24b instuction from location specified by 'address'. 
 
 end Behavioral;
 
