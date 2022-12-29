@@ -345,7 +345,7 @@ if2d : if2idcode port map (clk,rst,if2dwrite,pcsignalout,instsignalin, pcsignalo
 
 
 decode : decodestagecode port map (instsignalind,clk,rst,regwritems,pcsignaloutfstate,dstms,wr_datawb,dste,memreade,
-										     reg1d,reg2d,src1d,src2d,dstd,memtoregd,memwrited,memreadd,branchsignald,alucontrold, --output--
+										     reg1d,reg2d,src1d,src2d,dstd,memtoregd,memwrited,memreadd,branchsignald,alucontrold, 
 												st_valued,signoutd,pcsignaloutdstate,regdstd,regwrited,pcwrite,if2dwrite,opcodesignald);
 
 
